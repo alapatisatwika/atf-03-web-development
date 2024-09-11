@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 10px;
+        text-align: center;
+      }
+
+      thead th {
+        background-color: #f4f4f4;
+      }
+
+      tbody td:nth-child(6),
+      tbody td:nth-child(7),
+      tbody td:nth-child(8) {
+        background-color: #e7d5d1;
+      }
+
+      tbody td:nth-child(9) {
+        background-color: #e7d5d1;
+      }
+
+      tbody td:nth-child(2),
+      tbody td:nth-child(3) {
+        background-color: #e7d5d1;
+      }
+
+      tbody td:nth-child(7),
+      tbody td:nth-child(9) {
+        background-color: #e7d5d1;
+      }
+
+      table tr:first-child th {
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      thead th[colspan] {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6">Year & Section: III-B.Tech & B</th>
+          <th colspan="4">ROOM NO: ATF-03</th>
+        </tr>
+        <tr>
+          <th>Day/Hour</th>
+          <th>8:15-9:10</th>
+          <th>9:10-10:05</th>
+          <th>10:05-10:20</th>
+          <th>10:20-11:15</th>
+          <th>11:15-12:10</th>
+          <th>12:10-1:05</th>
+          <th>1:05-2:00</th>
+          <th>2:00-2:55</th>
+          <th>2:55-3:50</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>MON</td>
+          <td>FLAT</td>
+          <td>SE</td>
+          <td rowspan="6">BREAK</td>
+          <td>CN</td>
+          <td colspan="2" rowspan="1">SS LAB</td>
+          <td rowspan="6">LUNCH BREAK</td>
+          <td colspan="2" rowspan="1">OPEN ELECTIVES</td>
+        </tr>
+        <tr>
+          <td>TUE</td>
+          <td colspan="2" rowspan="1">SE (NP-LAB)</td>
+          <td>CN</td>
+          <td>FLAT (T)</td>
+          <td>ML</td>
+          <td colspan="2" rowspan="1">Minor/ Honor (AWT)</td>
+        </tr>
+        <tr>
+          <td>WED</td>
+          <td>ML</td>
+          <td>FLAT</td>
+          <td colspan="2" rowspan="1">Minor/ Honor (AWT)</td>
+          <td>SE</td>
+          <td colspan="2" rowspan="1">OPEN ELECTIVES</td>
+        </tr>
+        <tr>
+          <td>THU</td>
+          <td colspan="2" rowspan="1">CN (DA-LAB)</td>
+          <td>ML</td>
+          <td>CN</td>
+          <td>Library</td>
+          <td colspan="2" rowspan="1">Coding Practices</td>
+        </tr>
+        <tr>
+          <td>FRI</td>
+          <td>FLAT</td>
+          <td>SE</td>
+          <td colspan="3" rowspan="1">ML (DA-LAB)</td>
+          <td colspan="2" rowspan="1">Minor/ Honor (AWT)</td>
+        </tr>
+        <tr>
+          <td>SAT</td>
+          <td colspan="2" rowspan="1">Minor/ Honor (AWT)</td>
+          <td colspan="3" rowspan="1">IDP-1 (NP-LAB)</td>
+          <td colspan="2" rowspan="1">Coding Practices</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
